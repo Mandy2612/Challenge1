@@ -1,0 +1,358 @@
+/* Segoe UI font importeren */
+@font-face {
+font-family: 'Segoe UI Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
+}
+
+/* Opmaak body */
+body{
+	background-color: lightgrey;
+	font-family: Segoe UI Regular, Arial, Sans Serif;
+}
+
+/* Opmaak startscherm */
+.startpagina{
+	background-color: #4367b1;
+	height: 100vh;
+}
+
+/* Opmaak Facebook logo*/
+h1{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 30vh;
+}
+
+/* Opmaak 'inlog balk' op startscherm*/
+.startpagina p{
+	border-radius: 2px;
+	background-color: white;
+	font-size: 13px;
+	text-align: center;
+	padding: 15px;
+	margin-left: 20vw;
+	margin-right: 20vw;
+}
+
+/* Opmaak log in button */
+#button{
+	color: white;
+	border-radius: 2px;
+	background-color: #243f77;
+	font-size: 13px;
+	text-align: center;
+	padding: 15px;
+	margin-left: 20vw;
+	margin-right: 20vw
+}
+
+/* Opmaak datum van gebeurtenissen */
+.datum{
+	background-color: white;
+	color: black;
+	padding: 10px;
+	font-family: Ink Free;
+	text-align: center;
+	font-size: 10px;
+	
+}
+
+/* Opmaak pijl onder de datum */
+span {
+  font-size: 13px;
+}
+
+/* Opmaak secties voor elk gebeurtenis */  
+section{
+	background-color: white;
+	color: black;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Opmaak profielfoto HHS */
+.profile{
+	background-image: url("profielfoto.jpg");
+	background-size: cover;
+	width: 100px;
+	max-width: 100%;
+	height: 100px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+/* Opmaak titels voor elk gebeurtenis */
+h2{
+	color: black;
+	font-size: 10px;
+	font-weight: bold;
+	margin-top: 70px;
+	padding-left: 5vw;
+}
+
+/* Opmaak alle omschrijvingen */
+section p{
+	margin-top: 10px;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	font-size: 8px;
+	max-width: 100%;
+}
+
+/* Centreren van alle afbeeldingen */
+.center{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 50px;
+}
+
+/* Breedte van alle afbeeldingen */
+.img2003, .img2004,.img2005, .img2006, .img2009, .img2011, .img2016, .img2020{
+	width: 80vw;
+	max-width: 100%;
+}
+
+/* Opmaak lijn */
+.lijn{
+	width: 90%;
+	max-width: 100%;
+	height: 1px;
+	border-bottom: 2px solid #4367b1;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	
+}
+
+/* Centreren van de 'vind ik leuk, opmerking, delen' sectie */
+.likecommentdeel{
+	text-align: center;	
+}
+
+/* Opmaak 'vind ik leuk, opmerking, delen' */
+.likecommentdeel p{
+	color: grey;
+	font-size: 8px;
+	line-height: 8px;
+	display: inline;
+}
+
+
+
+/* Opmaak bij een minimale scherm breedte van 768px (Tablet) */
+
+@media only screen and (min-device-width: 768px){
+
+/* Opmaak Facebook logo */
+h1{
+	font-size: 30px;
+}
+	
+/* Opmaak inlog balk op starscherm */
+.startpagina p{
+	font-size: 15px;
+	margin-left: 15vw;
+	margin-right: 15vw;
+}	
+
+/* Opmaak inlog button */
+#button{
+	font-size: 15px;
+	margin-left: 15vw;
+	margin-right: 15vw
+}
+
+/* Opmaak datum van alle gebeurtenissen */
+.datum{
+	font-size: 12px;
+	
+}
+
+/* Opmaak pijl onder de datum */
+span {
+  font-size: 19px;
+}
+
+/* Opmaak titels van alle gebeurtenissen */
+h2{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* Opmaak gebeurtenis omschrijvingen */
+section p{
+	font-size: 10px;
+}
+
+/* Breedte van alle afbeeldingen */
+.img2003, .img2004,.img2005, .img2006, .img2009, .img2011, .img2016, .img2020{
+	width: 70vw;
+}
+
+/* Opmaak 'vind ik leuk, opmerking, delen' */
+.likecommentdeel p{
+	font-size: 10px;
+}
+
+}
+
+/* Opmaak bij een minimale schermbreedte van 1280px (kleine desktop) */
+@media only screen and (min-device-width: 1280px){
+	
+/* Opmaak startscherm */
+.startpagina{
+	background-color: white;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-bottom: 30px;
+}
+
+/* Opmaak Facebook logo*/
+h1{
+	color: #4367b1;
+	font-size: 28px;
+}
+
+/* Opmaak 'inlog balk' op startscherm*/
+.startpagina p{
+	border-radius: 2px;
+	background-color: white;
+	border: 1px solid grey;
+	font-size: 13px;
+	text-align: center;
+	padding: 15px;
+	margin-left: 25vw;
+	margin-right: 25vw;
+}
+
+/* Opmaak log in button */
+#button{
+	color: white;
+	border-radius: 2px;
+	background-color: #243f77;
+	font-size: 13px;
+	text-align: center;
+	padding: 15px;
+	margin-left: 25vw;
+	margin-right: 25vw
+}
+
+/* Opmaak datum van gebeurtenissen */
+.datum{
+	border-radius: 10px;
+	margin-left: 70px;
+	margin-right: 70px;
+	
+}
+
+/* Opmaak secties voor elk gebeurtenis */  
+section{
+	border-radius: 10px;
+	margin-left: 70px;
+	margin-right: 70px;
+}	
+/* Opmaak titels voor elk gebeurtenis */
+h2{
+	font-size: 15px;
+	margin-top: 50px;
+	padding-left: 8vw;
+}
+
+/* Opmaak alle omschrijvingen */
+section p{
+	padding-left: 8vw;
+	padding-right: 8vw;
+	font-size: 13px;
+}
+
+/* Breedte van alle afbeeldingen */
+.img2003, .img2004,.img2005, .img2006, .img2009, .img2011, .img2016, .img2020{
+	width: 50vw;
+}
+
+/* Centreren van de 'vind ik leuk, opmerking, delen' sectie */
+.likecommentdeel{
+	text-align: center;	
+}
+
+/* Opmaak 'vind ik leuk, opmerking, delen' */
+.likecommentdeel p{
+	font-size: 13px;
+}
+}
+
+
+/* Opmaak bij een minimale schermbreedte van 1920px (grote desktop) */
+@media only screen and (min-device-width: 1920px){
+
+/* Opmaak startscherm */
+.startpagina{
+	margin-left: 90px;
+	margin-right: 90px;
+}
+
+/* Opmaak Facebook logo*/
+h1{
+	font-size: 35px;
+}
+
+/* Opmaak 'inlog balk' op startscherm*/
+.startpagina p{
+	font-size: 16px;
+	padding: 18px;
+	margin-left: 20vw;
+	margin-right: 20vw;
+}
+
+/* Opmaak log in button */
+#button{
+	font-size: 18px;
+	padding: 18px;
+	margin-left: 20vw;
+	margin-right: 20vw
+}
+
+/* Opmaak datum van gebeurtenissen */
+.datum{
+	margin-left: 90px;
+	margin-right: 90px;
+	
+}
+
+/* Opmaak secties voor elk gebeurtenis */  
+section{
+	margin-left: 90px;
+	margin-right: 90px;
+}	
+/* Opmaak titels voor elk gebeurtenis */
+h2{
+	font-size: 17px;
+	margin-top: 50px;
+	padding-left: 10vw;
+}
+
+/* Opmaak alle omschrijvingen */
+section p{
+	padding-left: 10vw;
+	padding-right: 10vw;
+	font-size: 15px;
+}
+
+/* Breedte van alle afbeeldingen */
+.img2003, .img2004,.img2005, .img2006, .img2009, .img2011, .img2016, .img2020{
+	width: 40vw;
+}
+
+/* Opmaak 'vind ik leuk, opmerking, delen' */
+.likecommentdeel p{
+	font-size: 15px;
+}	
+}
+	
